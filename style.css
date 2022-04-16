@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    outline:none;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style:none;
+}
+
+/* -------main_div part start------- */
+.main_div{
+    width:900px;
+    height:600px;
+    background:linear-gradient(rgba(198, 196, 66, 0.5), rgba(230, 14, 14, 0.55));
+    margin: 0 auto;
+    position: relative;
+}
+
+/* --------main_div part end here------ */
+
+
+/* --------intru_section part start here------ */
+.main_div .intru_section{
+    width:60%;
+    /* height:100%; */
+    float: left;
+}
+.text{
+    /* margin-top:50px; */
+}
+.intru_section .text h2{
+    font-size:47px;
+    color:brown;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* margin-top:50px; */
+    padding-top: 65px;
+}
+.intru_section .text h1{
+    font-size:34px;
+    color:blueviolet;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.intru_section .text p{
+    font-size:16px;
+    color: #313131;
+    line-height:24px;
+    text-align:justify;
+}
+.read_more {
+	margin-top: 30px;
+    text-align: center;
+}
+.intru_section .text .read_more a{
+    color:#fff;
+    font-size:20px;
+    padding:10px 20px;
+    background:#ee0a0a;
+    display: inline-block;
+    border-radius: 20px;
+    transition: .5s all linear;
+}
+.intru_section .text .read_more a:hover{
+    color:#ee0a0a;
+    background: #f1f1f2;
+}
+/* .read_more:hover a{
+    background:#f1f1f2;
+} */
+/* .read_more:hover a{
+    color:#010101;
+} */
+/* --------intru_section part end here------ */
+
+/* --------sign_up  part start here------ */
+.sign_up {
+	width: 40%;
+	height: 100%;
+    float: left;
+}
+.sign_up form{
+    margin-top:50px;
+    margin-left:50px;
+}
+form label{
+    font-size:50px;
+    color:tan;
+    text-transform: capitalize;
+}
+form input{
+    margin:15px 0;
+}
+form input[type=text].name{
+    display: block;
+    border:1px solid #f1f1f1;
+    width:266px;
+    outline:none;
+    padding: 10px;
+    border-radius: 19px;
+    box-shadow: 0 0 5px 2px #f5eef4;
+}
+form input[type=email].email{
+    display: block;
+    border:1px solid #f1f1f1;
+    width:266px;
+    outline:none;
+    padding: 10px;
+    border-radius: 19px;
+    box-shadow: 0 0 5px 2px #f5eef4;
+}
+form input[type=password].password{
+    display: block;
+    border:1px solid #f1f1f1;
+    width:266px;
+    outline:none;
+    padding: 10px;
+    border-radius: 19px;
+    box-shadow: 0 0 5px 2px #f5eef4;
+}
+
+form input[type="submit"].sign_up {
+	width: 130px;
+	background: #f5eef4;
+	font-size: 18px;
+	border: 1px solid #010101;
+	color: brown;
+	border-radius: 20px;
+	padding: 2px 10px;
+    margin-right:20px;
+}
+form input[type="submit"].sign_in {
+	width: 130px;
+	background: #f5eef4;
+	font-size: 18px;
+	border: 1px solid #010101;
+	color: brown;
+	border-radius: 20px;
+	padding: 2px 10px;
+}
+form input:hover{
+    background:aquamarine;
+}
+form input:focus{
+    background:rgb(160, 165, 163);
+}
+form input[type="submit"].sign_in:hover,
+form input[type="submit"].sign_up:hover
+{
+    background:turquoise;
+    color:#f1f1f1;
+}
+/* --------sign_up  part end here------ */
+
+
+/* --------main_div part start here------ */
+.main_div::after{
+    content:'';
+    width:100%;
+    height:0%;
+    background:rgba(53, 106, 55, 0.7);
+    position:absolute;
+    bottom:0;
+    left:0;
+    transition:3s all linear;
+}
+.main_div:hover::after{
+    height:100%;
+    z-index: -1;
+}
+.main_div .me {
+	color: black;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 241px;
+	text-transform: capitalize;
+}
+/* --------main_div part end here------ */
+
+
+
+
+
+
